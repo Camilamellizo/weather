@@ -4,6 +4,9 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}"
   ],
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
       backgroundImage: {
         'fondo': "url('./assets/nuves.png')",

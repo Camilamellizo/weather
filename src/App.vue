@@ -1,15 +1,12 @@
 <template>
-  <div class="container ">
-    <div class="col-span-12 text-white md:grid grid-cols-12">  
+    <div class="text-white grid grid-cols-12">  
       <div class="col-span-12 bg-blue-sky md:col-span-4 h-screen">
         <Sidebar />
       </div>
-      <div class="col-span-12 md:col-span-8">
-        <Content />
+      <div class="col-span-12 bg-blue-dark md:col-span-8">
+          <Content />
       </div>  
-    </div>  
-  </div>
-  
+    </div>    
 </template>
 
 <script>
@@ -22,7 +19,8 @@ export default {
   components: {
    Sidebar,
    Content
-  }
+  },
+ 
 }
 </script>
 
